@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://nagyen.github.io',
                 'git_url': 'https://github.com/nagyen/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.helloworld': { 'nbdev_hello_world.helloworld.foo': ( 'helloworld.html#foo',
+                                                                                    'nbdev_hello_world/helloworld.py'),
+                                              'nbdev_hello_world.helloworld.say_hello': ( 'helloworld.html#say_hello',
+                                                                                          'nbdev_hello_world/helloworld.py')}}}
